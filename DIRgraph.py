@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt     # Matplotlib should be imported as plt
 import DepthFirst
 import BreadthFirst
 import PageRank
+import Transclosure
 
 ### GRAPH
 G = nx.DiGraph()
@@ -62,6 +63,9 @@ for u in edges_in_G:
 # whoever made this is a god, just put in the graph
 #print(PageRank.pagerank(G))
 
+# TRANSCLOSURE Works
+# just add the graph
+#Transclosure.transclosure(G)
 
 ### DRAWING 
 nx.draw(
