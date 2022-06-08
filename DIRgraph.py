@@ -3,6 +3,8 @@
 import networkx as nx                  # NetworkX should be imported as nx
 import matplotlib.pyplot as plt     # Matplotlib should be imported as plt
 
+### ALGOS
+import DepthFirst
 
 ### GRAPH
 G = nx.DiGraph()
@@ -44,7 +46,9 @@ for u in edges_in_G:
             weight= connection[1])
 
 ### WORK
-
+# DFS Works
+visited = set()
+DepthFirst.dfs(visited, G,'1') 
 
 
 ### DRAWING 
