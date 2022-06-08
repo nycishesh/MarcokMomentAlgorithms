@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt     # Matplotlib should be imported as plt
 ### ALGOS
 import DepthFirst
 import BreadthFirst
+import PageRank
 
 ### GRAPH
 G = nx.DiGraph()
@@ -55,6 +56,10 @@ for u in edges_in_G:
 #visitedBFS = []
 #queue = []
 #BreadthFirst.bfs(visitedBFS, G, '1', queue)
+
+# PAGERANK Works
+#print(PageRank.pagerank(G))
+
 
 ### DRAWING 
 nx.draw(
