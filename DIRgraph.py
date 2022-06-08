@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt     # Matplotlib should be imported as plt
 
 ### ALGOS
 import DepthFirst
+import BreadthFirst
 
 ### GRAPH
 G = nx.DiGraph()
@@ -47,9 +48,13 @@ for u in edges_in_G:
 
 ### WORK
 # DFS Works
-visited = set()
-DepthFirst.dfs(visited, G,'1') 
+#visited = set()
+#DepthFirst.dfs(visited, G,'1') 
 
+#BFS Works
+#visitedBFS = []
+#queue = []
+#BreadthFirst.bfs(visitedBFS, G, '1', queue)
 
 ### DRAWING 
 nx.draw(
