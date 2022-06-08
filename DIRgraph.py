@@ -69,7 +69,10 @@ for u in edges_in_G:
 #Transclosure.transclosure(G)
 
 # DIJKSTRA
-Dijkstra.dijkstra(G,'1','2')
+#Dijkstra.dijkstra(G,'1','2')
+
+
+print(G.edges())
 
 ### DRAWING 
 nx.draw(
