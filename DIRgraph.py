@@ -8,6 +8,7 @@ import DepthFirst
 import BreadthFirst
 import PageRank
 import Transclosure
+import Dijkstra
 
 ### GRAPH
 G = nx.DiGraph()
@@ -66,6 +67,9 @@ for u in edges_in_G:
 # TRANSCLOSURE Works
 # just add the graph
 #Transclosure.transclosure(G)
+
+# DIJKSTRA
+Dijkstra.dijkstra(G,'1','2')
 
 ### DRAWING 
 nx.draw(
