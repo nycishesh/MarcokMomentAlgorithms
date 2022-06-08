@@ -29,7 +29,6 @@ for node in nodes_in_G:
     )
 
 
-
 ### ADDING EDGES
 edges_in_G = {
     '0' : [('1', 10), ('5', 20)],
@@ -49,15 +48,18 @@ for u in edges_in_G:
 
 ### WORK
 # DFS Works
+# Make sure to make a visited set
 #visited = set()
 #DepthFirst.dfs(visited, G,'1') 
 
 #BFS Works
+# make sure to make a visitedbfs list and a queue list
 #visitedBFS = []
 #queue = []
 #BreadthFirst.bfs(visitedBFS, G, '1', queue)
 
 # PAGERANK Works
+# whoever made this is a god, just put in the graph
 #print(PageRank.pagerank(G))
 
 
