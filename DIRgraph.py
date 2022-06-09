@@ -71,9 +71,6 @@ for u in edges_in_G:
 # DIJKSTRA
 #Dijkstra.dijkstra(G,'1','2')
 
-
-print(G.edges())
-
 ### DRAWING 
 nx.draw(
     G,
